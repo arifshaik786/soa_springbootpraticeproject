@@ -41,9 +41,6 @@ public class LaboratoryServiceImpl implements LaboratoryService
             lab.setStatus(laboratory.getStatus());
             lab.setLocation(laboratory.getLocation());
             lab.setCity(laboratory.getCity());
-            lab.setCapacity(laboratory.getCapacity());
-            lab.setOpeningTime(laboratory.getOpeningTime());
-            lab.setClosingTime(laboratory.getClosingTime());
 
             return repo.save(lab);
         }

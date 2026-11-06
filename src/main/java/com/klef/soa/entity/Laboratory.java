@@ -29,17 +29,10 @@ public class Laboratory
    private String type;
    @Column(length = 100, nullable = false)
    private String city;
-   @Column(nullable = false)
-   private int capacity;
    @Column(name = "lab_status", length = 30, nullable = false)
    private String status;
    @Column(name = "location", length = 100, nullable = false)
    private String location;
-   @Column(name = "opening_time", nullable = false)
-   private LocalTime openingTime;
-
-   @Column(name = "closing_time", nullable = false)
-   private LocalTime closingTime;
    @CreationTimestamp
    private LocalDateTime createdAt;
    @UpdateTimestamp

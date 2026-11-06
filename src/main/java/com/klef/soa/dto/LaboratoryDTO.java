@@ -15,7 +15,6 @@ public class LaboratoryDTO
     private String name;
     private String type;
     private String city;
-    private int capacity;
     private LocalTime openingTime;
     private LocalTime closingTime;
 }
